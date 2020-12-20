@@ -2,6 +2,15 @@
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": "CaoMeiYouRen",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "cross-env NODE_ENV=production eslint src --fix --ext .js,.jsx,.ts,.tsx"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -16,17 +25,13 @@
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.16.0",
+    "eslint-config-cmyr": "^1.0.6",
+    "less": "^4.0.0",
+    "less-loader": "^7.1.0"
   },
   "browserslist": {
     "production": [
