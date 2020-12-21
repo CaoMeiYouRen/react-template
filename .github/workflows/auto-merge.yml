@@ -1,15 +1,12 @@
-name: Test
+name: Dependabot Auto Merge
 on:
-  push:
-    branches:
-      - master
   pull_request:
-    branches:
-      - master
+    types: [labeled, edited]
 
 jobs:
   merge:
-    name: Test
+    if: github.event.label.name == 'dependencies'
+    name: Dependabot Auto Merge
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -29,3 +26,8 @@ jobs:
       - run: yarn
       - run: npm run lint
       - run: npm run build
+      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+        with:
+          command: merge
+          target: minor
+          github-token: ${{ secrets.GH_TOKEN }}
