@@ -5,9 +5,9 @@
   "license": "MIT",
   "author": "CaoMeiYouRen",
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "dev": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "lint": "cross-env NODE_ENV=production eslint src --fix --ext .js,.jsx,.ts,.tsx"
   },
@@ -21,16 +21,19 @@
     "@types/react-dom": "^17.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "typescript": "^4.0.3",
     "web-vitals": "^1.0.1"
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
     "cross-env": "^7.0.3",
     "eslint": "^7.16.0",
     "eslint-config-cmyr": "^1.0.9",
+    "react-app-rewired": "^2.1.8",
     "sass": "^1.32.0",
     "sass-loader": "^10.1.0"
   },
