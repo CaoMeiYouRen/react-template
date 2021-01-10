@@ -3,7 +3,7 @@ const path = require('path')
 const paths = require('react-scripts/config/paths')
 module.exports = function override(config, env) {
     // 关闭sourceMap
-    config.devtool = false
+    config.devtool = process.env.NODE_ENV === 'development' // 移除生产环境的 source map
     // 配置打包后的文件位置
     config.output.path = path.join(__dirname, '/dist')
     config.output.publicPath = '/'
