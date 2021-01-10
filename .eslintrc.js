@@ -7,5 +7,6 @@ module.exports = {
         'cmyr',
     ],
     rules: {
+        'no-unused-vars': 0,
     },
 }
