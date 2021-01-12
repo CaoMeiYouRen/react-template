@@ -35,7 +35,7 @@
     "eslint-config-cmyr": "^1.0.10",
     "react-app-rewired": "^2.1.8",
     "sass": "^1.32.0",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.1"
   },
   "browserslist": {
     "production": [
