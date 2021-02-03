@@ -6,7 +6,6 @@ module.exports = function override(config, env) {
     if (env === 'production') {
         config.devtool = false
     }
-    console.log('env: ', JSON.stringify(env), env === 'production')
     // 配置打包后的文件位置
     config.output.path = path.join(__dirname, '/dist')
     config.output.publicPath = '/'
