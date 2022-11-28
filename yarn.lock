@@ -5189,10 +5189,10 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-cmyr@^1.1.23:
-  version "1.1.23"
-  resolved "https://registry.npmmirror.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.23.tgz#404eaf434dacf67e88003ae60179eeb036e62556"
-  integrity sha512-YX2JTkOz9sO3UbO9zY6bMdiabuv2rYZ0e56xSFO9l17PlgeVFkEbpQI96mClU191eQt7vAZWGdar1y5ieAF/VA==
+eslint-config-cmyr@^1.1.24:
+  version "1.1.24"
+  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.24.tgz#1eabee691c13e45bf632dcfae49929079f1d80b3"
+  integrity sha512-QgjxOn41zKiv5P7kYVwKxb/HJFiQ2Qa5r490rzzTVPxhav2nzyiu7rAkDq/9ePbqhmC7eMvXxqSpPB5Xj8qZWQ==
 
 eslint-config-react-app@^6.0.0:
   version "6.0.0"
