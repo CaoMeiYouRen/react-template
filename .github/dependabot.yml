@@ -10,9 +10,15 @@ updates:
     open-pull-requests-limit: 20
     schedule:
       interval: "daily"
-      time: "19:00"
+      time: "05:00"
       timezone: "Asia/Shanghai"
     ignore:
       - dependency-name: "less-loader"
         versions:
           - ">= 8.0.0"
+      - dependency-name: "css-loader"
+        versions:
+          - ">= 6.0.0"
+      - dependency-name: "style-loader"
+        versions:
+          - ">= 3.0.0"
