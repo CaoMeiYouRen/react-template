@@ -42,8 +42,8 @@ dependencies:
     specifier: ^1.69.5
     version: 1.69.5
   sass-loader:
-    specifier: ^13.3.2
-    version: 13.3.2(sass@1.69.5)(webpack@4.44.2)
+    specifier: ^13.3.3
+    version: 13.3.3(sass@1.69.5)(webpack@4.44.2)
   style-loader:
     specifier: ^2.0.0
     version: 2.0.0(webpack@4.44.2)
@@ -11811,8 +11811,8 @@ packages:
       webpack: 4.44.2
     dev: false
 
-  /sass-loader@13.3.2(sass@1.69.5)(webpack@4.44.2):
-    resolution: {integrity: sha512-CQbKl57kdEv+KDLquhC+gE3pXt74LEAzm+tzywcA0/aHZuub8wTErbjAoNI57rPUWRYRNC5WUnNl8eGJNbDdwg==}
+  /sass-loader@13.3.3(sass@1.69.5)(webpack@4.44.2):
+    resolution: {integrity: sha512-mt5YN2F1MOZr3d/wBRcZxeFgwgkH44wVc2zohO2YF6JiOMkiXe4BYRZpSu2sO1g71mo/j16txzUhsKZlqjVGzA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       fibers: '>= 3.1.0'
