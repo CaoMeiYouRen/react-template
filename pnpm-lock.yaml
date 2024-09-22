@@ -45,8 +45,8 @@ importers:
         specifier: ^1.79.3
         version: 1.79.3
       sass-loader:
-        specifier: ^16.0.1
-        version: 16.0.1(sass@1.79.3)(webpack@4.44.2)
+        specifier: ^16.0.2
+        version: 16.0.2(sass@1.79.3)(webpack@4.44.2)
       style-loader:
         specifier: ^2.0.0
         version: 2.0.0(webpack@4.44.2)
@@ -5479,8 +5479,8 @@ packages:
       sass:
         optional: true
 
-  sass-loader@16.0.1:
-    resolution: {integrity: sha512-xACl1ToTsKnL9Ce5yYpRxrLj9QUDCnwZNhzpC7tKiFyA8zXsd3Ap+HGVnbCgkdQcm43E+i6oKAWBsvGA6ZoiMw==}
+  sass-loader@16.0.2:
+    resolution: {integrity: sha512-Ll6iXZ1EYwYT19SqW4mSBb76vSSi8JgzElmzIerhEGgzB5hRjDQIWsPmuk1UrAXkR16KJHqVY0eH+5/uw9Tmfw==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x
@@ -14093,7 +14093,7 @@ snapshots:
     optionalDependencies:
       sass: 1.79.3
 
-  sass-loader@16.0.1(sass@1.79.3)(webpack@4.44.2):
+  sass-loader@16.0.2(sass@1.79.3)(webpack@4.44.2):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
