@@ -31,7 +31,7 @@ importers:
         version: 18.3.1
       react-app-rewired:
         specifier: 2.1.11
-        version: 2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.1)(sockjs-client@1.6.1)(typescript@5.6.2))
+        version: 2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.3)(sockjs-client@1.6.1)(typescript@5.6.2))
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.3.1)
@@ -40,13 +40,13 @@ importers:
         version: 5.3.0(react@18.3.1)
       react-scripts:
         specifier: 4.0.3
-        version: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.1)(sockjs-client@1.6.1)(typescript@5.6.2)
+        version: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.3)(sockjs-client@1.6.1)(typescript@5.6.2)
       sass:
-        specifier: ^1.79.1
-        version: 1.79.1
+        specifier: ^1.79.3
+        version: 1.79.3
       sass-loader:
         specifier: ^16.0.1
-        version: 16.0.1(sass@1.79.1)(webpack@4.44.2)
+        version: 16.0.1(sass@1.79.3)(webpack@4.44.2)
       style-loader:
         specifier: ^2.0.0
         version: 2.0.0(webpack@4.44.2)
@@ -5500,8 +5500,8 @@ packages:
       webpack:
         optional: true
 
-  sass@1.79.1:
-    resolution: {integrity: sha512-+mA7svoNKeL0DiJqZGeR/ZGUu8he4I8o3jyUcOFyo4eBJrwNgIMmAEwCMo/N2Y3wdjOBcRzoNxZIOtrtMX8EXg==}
+  sass@1.79.3:
+    resolution: {integrity: sha512-m7dZxh0W9EZ3cw50Me5GOuYm/tVAJAn91SUnohLRo9cXBixGUOdvmryN+dXpwR831bhoY3Zv7rEFt85PUwTmzA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -13630,9 +13630,9 @@ snapshots:
       regenerator-runtime: 0.13.11
       whatwg-fetch: 3.6.19
 
-  react-app-rewired@2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.1)(sockjs-client@1.6.1)(typescript@5.6.2)):
+  react-app-rewired@2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.3)(sockjs-client@1.6.1)(typescript@5.6.2)):
     dependencies:
-      react-scripts: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.1)(sockjs-client@1.6.1)(typescript@5.6.2)
+      react-scripts: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.3)(sockjs-client@1.6.1)(typescript@5.6.2)
       semver: 5.7.2
 
   react-dev-utils@11.0.4(eslint@7.32.0)(typescript@5.6.2)(webpack@4.44.2):
@@ -13710,7 +13710,7 @@ snapshots:
       tiny-invariant: 1.3.1
       tiny-warning: 1.0.3
 
-  react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.1)(sockjs-client@1.6.1)(typescript@5.6.2):
+  react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@18.3.1)(sass@1.79.3)(sockjs-client@1.6.1)(typescript@5.6.2):
     dependencies:
       '@babel/core': 7.12.3
       '@pmmmwh/react-refresh-webpack-plugin': 0.4.3(@types/webpack@4.41.34)(react-refresh@0.8.3)(sockjs-client@1.6.1)(webpack-dev-server@3.11.1(webpack@4.44.2))(webpack@4.44.2)
@@ -13761,7 +13761,7 @@ snapshots:
       react-refresh: 0.8.3
       resolve: 1.18.1
       resolve-url-loader: 3.1.5
-      sass-loader: 10.4.1(sass@1.79.1)(webpack@4.44.2)
+      sass-loader: 10.4.1(sass@1.79.3)(webpack@4.44.2)
       semver: 7.3.2
       style-loader: 1.3.0(webpack@4.44.2)
       terser-webpack-plugin: 4.2.3(webpack@4.44.2)
@@ -14082,7 +14082,7 @@ snapshots:
 
   sanitize.css@10.0.0: {}
 
-  sass-loader@10.4.1(sass@1.79.1)(webpack@4.44.2):
+  sass-loader@10.4.1(sass@1.79.3)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
       loader-utils: 2.0.4
@@ -14091,16 +14091,16 @@ snapshots:
       semver: 7.6.0
       webpack: 4.44.2
     optionalDependencies:
-      sass: 1.79.1
+      sass: 1.79.3
 
-  sass-loader@16.0.1(sass@1.79.1)(webpack@4.44.2):
+  sass-loader@16.0.1(sass@1.79.3)(webpack@4.44.2):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
-      sass: 1.79.1
+      sass: 1.79.3
       webpack: 4.44.2
 
-  sass@1.79.1:
+  sass@1.79.3:
     dependencies:
       chokidar: 4.0.0
       immutable: 4.3.4
