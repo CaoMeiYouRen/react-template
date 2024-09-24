@@ -88,8 +88,8 @@ importers:
         specifier: ^7.32.0
         version: 7.32.0
       eslint-config-cmyr:
-        specifier: ^1.1.31
-        version: 1.1.31(ha6kew2qhjkxghgzxo7usv26mq)
+        specifier: ^1.1.32
+        version: 1.1.32(ha6kew2qhjkxghgzxo7usv26mq)
 
 packages:
 
@@ -2621,8 +2621,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-cmyr@1.1.31:
-    resolution: {integrity: sha512-A7t9y24zMXEe5autUYq4iaULnoDvd3M+MlYoCCCAzOE5o/kS+5aoCpmFvXVkSwJEyZ9Qo/LePSiqq0uai2xrfg==}
+  eslint-config-cmyr@1.1.32:
+    resolution: {integrity: sha512-dK4atnEPl4twuEpOzdyRvE6JaxDoIJizKIMDdTpca2ZY1b5TosgVnfpXj9lT+hkm4jj2jMsFk2rXVe/u0bgNTg==}
     engines: {node: '>=12'}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '>=3'
@@ -10450,7 +10450,7 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-cmyr@1.1.31(ha6kew2qhjkxghgzxo7usv26mq):
+  eslint-config-cmyr@1.1.32(ha6kew2qhjkxghgzxo7usv26mq):
     dependencies:
       eslint: 7.32.0
     optionalDependencies:
