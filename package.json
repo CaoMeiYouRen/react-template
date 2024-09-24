@@ -40,7 +40,7 @@
     "@typescript-eslint/parser": "^8.7.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
-    "eslint-config-cmyr": "^1.1.31"
+    "eslint-config-cmyr": "^1.1.32"
   },
   "browserslist": {
     "production": [
