@@ -31,7 +31,7 @@ importers:
         version: 19.1.1
       react-app-rewired:
         specifier: 2.1.11
-        version: 2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.89.2)(sockjs-client@1.6.1)(typescript@5.9.2))
+        version: 2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.90.0)(sockjs-client@1.6.1)(typescript@5.9.2))
       react-dom:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.1)
@@ -40,13 +40,13 @@ importers:
         version: 5.3.4(react@19.1.1)
       react-scripts:
         specifier: 4.0.3
-        version: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.89.2)(sockjs-client@1.6.1)(typescript@5.9.2)
+        version: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.90.0)(sockjs-client@1.6.1)(typescript@5.9.2)
       sass:
-        specifier: ^1.89.2
-        version: 1.89.2
+        specifier: ^1.90.0
+        version: 1.90.0
       sass-loader:
         specifier: ^16.0.5
-        version: 16.0.5(sass@1.89.2)(webpack@4.44.2)
+        version: 16.0.5(sass@1.90.0)(webpack@4.44.2)
       style-loader:
         specifier: ^2.0.0
         version: 2.0.0(webpack@4.44.2)
@@ -3524,8 +3524,8 @@ packages:
   immer@8.0.1:
     resolution: {integrity: sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==}
 
-  immutable@5.1.2:
-    resolution: {integrity: sha512-qHKXW1q6liAk1Oys6umoaZbDRqjcjgSrbnrifHsfsttza7zcvRAsL7mMV6xWcyhwQy7Xj5v4hhbr6b+iDYwlmQ==}
+  immutable@5.1.3:
+    resolution: {integrity: sha512-+chQdDfvscSF1SJqv2gn4SRO2ZyS3xL3r7IW/wWEEzrzLisnOlKiQu5ytC/BVNcS15C39WT2Hg/bjKjDMcu+zg==}
 
   import-cwd@2.1.0:
     resolution: {integrity: sha512-Ew5AZzJQFqrOV5BTW3EIoHAnoie1LojZLXKcCQ/yTRyVZosBhK1x1ViYjHGf5pAFOq8ZyChZp6m/fSN7pJyZtg==}
@@ -5671,8 +5671,8 @@ packages:
       webpack:
         optional: true
 
-  sass@1.89.2:
-    resolution: {integrity: sha512-xCmtksBKd/jdJ9Bt9p7nPKiuqrlBMBuuGkQlkhZjjQk3Ty48lv93k5Dq6OPkKt4XwxDJ7tvlfrTa1MPA9bf+QA==}
+  sass@1.90.0:
+    resolution: {integrity: sha512-9GUyuksjw70uNpb1MTYWsH9MQHOHY6kwfnkafC24+7aOMZn9+rVMBxRbLvw756mrBFbIsFg6Xw9IkR2Fnn3k+Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -11685,7 +11685,7 @@ snapshots:
 
   immer@8.0.1: {}
 
-  immutable@5.1.2: {}
+  immutable@5.1.3: {}
 
   import-cwd@2.1.0:
     dependencies:
@@ -13938,9 +13938,9 @@ snapshots:
       regenerator-runtime: 0.13.11
       whatwg-fetch: 3.6.19
 
-  react-app-rewired@2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.89.2)(sockjs-client@1.6.1)(typescript@5.9.2)):
+  react-app-rewired@2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.90.0)(sockjs-client@1.6.1)(typescript@5.9.2)):
     dependencies:
-      react-scripts: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.89.2)(sockjs-client@1.6.1)(typescript@5.9.2)
+      react-scripts: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.90.0)(sockjs-client@1.6.1)(typescript@5.9.2)
       semver: 5.7.2
 
   react-dev-utils@11.0.4(eslint@7.32.0)(typescript@5.9.2)(webpack@4.44.2):
@@ -14016,7 +14016,7 @@ snapshots:
       tiny-invariant: 1.3.1
       tiny-warning: 1.0.3
 
-  react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.89.2)(sockjs-client@1.6.1)(typescript@5.9.2):
+  react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.90.0)(sockjs-client@1.6.1)(typescript@5.9.2):
     dependencies:
       '@babel/core': 7.12.3
       '@pmmmwh/react-refresh-webpack-plugin': 0.4.3(@types/webpack@4.41.34)(react-refresh@0.8.3)(sockjs-client@1.6.1)(webpack-dev-server@3.11.1(webpack@4.44.2))(webpack@4.44.2)
@@ -14067,7 +14067,7 @@ snapshots:
       react-refresh: 0.8.3
       resolve: 1.18.1
       resolve-url-loader: 3.1.5
-      sass-loader: 10.5.2(sass@1.89.2)(webpack@4.44.2)
+      sass-loader: 10.5.2(sass@1.90.0)(webpack@4.44.2)
       semver: 7.3.2
       style-loader: 1.3.0(webpack@4.44.2)
       terser-webpack-plugin: 4.2.3(webpack@4.44.2)
@@ -14388,7 +14388,7 @@ snapshots:
 
   sanitize.css@10.0.0: {}
 
-  sass-loader@10.5.2(sass@1.89.2)(webpack@4.44.2):
+  sass-loader@10.5.2(sass@1.90.0)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
       loader-utils: 2.0.4
@@ -14397,19 +14397,19 @@ snapshots:
       semver: 7.3.2
       webpack: 4.44.2
     optionalDependencies:
-      sass: 1.89.2
+      sass: 1.90.0
 
-  sass-loader@16.0.5(sass@1.89.2)(webpack@4.44.2):
+  sass-loader@16.0.5(sass@1.90.0)(webpack@4.44.2):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
-      sass: 1.89.2
+      sass: 1.90.0
       webpack: 4.44.2
 
-  sass@1.89.2:
+  sass@1.90.0:
     dependencies:
       chokidar: 4.0.3
-      immutable: 5.1.2
+      immutable: 5.1.3
       source-map-js: 1.2.1
     optionalDependencies:
       '@parcel/watcher': 2.5.1
