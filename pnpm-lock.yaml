@@ -21,11 +21,11 @@ importers:
         specifier: ^5.2.7
         version: 5.2.7(webpack@4.44.2)
       less:
-        specifier: ^4.4.0
-        version: 4.4.0
+        specifier: ^4.4.1
+        version: 4.4.1
       less-loader:
         specifier: ^7.3.0
-        version: 7.3.0(less@4.4.0)(webpack@4.44.2)
+        version: 7.3.0(less@4.4.1)(webpack@4.44.2)
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -4186,8 +4186,8 @@ packages:
       less: ^3.5.0 || ^4.0.0
       webpack: ^4.0.0 || ^5.0.0
 
-  less@4.4.0:
-    resolution: {integrity: sha512-kdTwsyRuncDfjEs0DlRILWNvxhDG/Zij4YLO4TMJgDLW+8OzpfkdPnRgrsRuY1o+oaxJGWsps5f/RVBgGmmN0w==}
+  less@4.4.1:
+    resolution: {integrity: sha512-X9HKyiXPi0f/ed0XhgUlBeFfxrlDP3xR4M7768Zl+WXLUViuL9AOPPJP4nCV0tgRWvTYvpNmN0SFhZOQzy16PA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5863,9 +5863,9 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
 
-  source-map@0.7.4:
-    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
-    engines: {node: '>= 8'}
+  source-map@0.7.6:
+    resolution: {integrity: sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ==}
+    engines: {node: '>= 12'}
 
   sourcemap-codec@1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
@@ -8569,7 +8569,7 @@ snapshots:
       native-url: 0.2.6
       react-refresh: 0.8.3
       schema-utils: 2.7.1
-      source-map: 0.7.4
+      source-map: 0.7.6
       webpack: 4.44.2
     optionalDependencies:
       '@types/webpack': 4.41.34
@@ -8843,7 +8843,7 @@ snapshots:
     dependencies:
       '@types/node': 24.3.0
       '@types/source-list-map': 0.1.3
-      source-map: 0.7.4
+      source-map: 0.7.6
 
   '@types/webpack@4.41.34':
     dependencies:
@@ -12600,15 +12600,15 @@ snapshots:
       lodash: 4.17.21
       webpack-sources: 1.4.3
 
-  less-loader@7.3.0(less@4.4.0)(webpack@4.44.2):
+  less-loader@7.3.0(less@4.4.1)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
-      less: 4.4.0
+      less: 4.4.1
       loader-utils: 2.0.4
       schema-utils: 3.3.0
       webpack: 4.44.2
 
-  less@4.4.0:
+  less@4.4.1:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
@@ -14638,7 +14638,7 @@ snapshots:
 
   source-map@0.6.1: {}
 
-  source-map@0.7.4: {}
+  source-map@0.7.6: {}
 
   sourcemap-codec@1.4.8: {}
 
@@ -15256,7 +15256,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 1.9.0
-      source-map: 0.7.4
+      source-map: 0.7.6
 
   validate-npm-package-license@3.0.4:
     dependencies:
@@ -15503,7 +15503,7 @@ snapshots:
       rollup: 1.32.1
       rollup-plugin-babel: 4.4.0(@babel/core@7.23.2)(rollup@1.32.1)
       rollup-plugin-terser: 5.3.1(rollup@1.32.1)
-      source-map: 0.7.4
+      source-map: 0.7.6
       source-map-url: 0.4.1
       stringify-object: 3.3.0
       strip-comments: 1.0.2
