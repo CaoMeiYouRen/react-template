@@ -31,7 +31,7 @@ importers:
         version: 19.1.1
       react-app-rewired:
         specifier: 2.1.11
-        version: 2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.1)(sockjs-client@1.6.1)(typescript@5.9.2))
+        version: 2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.2)(sockjs-client@1.6.1)(typescript@5.9.2))
       react-dom:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.1)
@@ -40,13 +40,13 @@ importers:
         version: 5.3.4(react@19.1.1)
       react-scripts:
         specifier: 4.0.3
-        version: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.1)(sockjs-client@1.6.1)(typescript@5.9.2)
+        version: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.2)(sockjs-client@1.6.1)(typescript@5.9.2)
       sass:
-        specifier: ^1.93.1
-        version: 1.93.1
+        specifier: ^1.93.2
+        version: 1.93.2
       sass-loader:
         specifier: ^16.0.5
-        version: 16.0.5(sass@1.93.1)(webpack@4.44.2)
+        version: 16.0.5(sass@1.93.2)(webpack@4.44.2)
       style-loader:
         specifier: ^2.0.0
         version: 2.0.0(webpack@4.44.2)
@@ -5671,8 +5671,8 @@ packages:
       webpack:
         optional: true
 
-  sass@1.93.1:
-    resolution: {integrity: sha512-wLAeLB7IksO2u+cCfhHqcy7/2ZUMPp/X2oV6+LjmweTqgjhOKrkaE/Q1wljxtco5EcOcupZ4c981X0gpk5Tiag==}
+  sass@1.93.2:
+    resolution: {integrity: sha512-t+YPtOQHpGW1QWsh1CHQ5cPIr9lbbGZLZnbihP/D/qZj/yuV68m8qarcV17nvkOX81BCrvzAlq2klCQFZghyTg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -8412,11 +8412,7 @@ snapshots:
       jest-runner: 26.6.3
       jest-runtime: 26.6.3
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   '@jest/transform@26.6.2':
     dependencies:
@@ -12064,11 +12060,7 @@ snapshots:
       stack-utils: 2.0.6
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   jest-cli@26.6.3:
     dependencies:
@@ -13937,9 +13929,9 @@ snapshots:
       regenerator-runtime: 0.13.11
       whatwg-fetch: 3.6.19
 
-  react-app-rewired@2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.1)(sockjs-client@1.6.1)(typescript@5.9.2)):
+  react-app-rewired@2.1.11(react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.2)(sockjs-client@1.6.1)(typescript@5.9.2)):
     dependencies:
-      react-scripts: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.1)(sockjs-client@1.6.1)(typescript@5.9.2)
+      react-scripts: 4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.2)(sockjs-client@1.6.1)(typescript@5.9.2)
       semver: 5.7.2
 
   react-dev-utils@11.0.4(eslint@7.32.0)(typescript@5.9.2)(webpack@4.44.2):
@@ -14015,7 +14007,7 @@ snapshots:
       tiny-invariant: 1.3.1
       tiny-warning: 1.0.3
 
-  react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.1)(sockjs-client@1.6.1)(typescript@5.9.2):
+  react-scripts@4.0.3(@types/webpack@4.41.34)(eslint@7.32.0)(react@19.1.1)(sass@1.93.2)(sockjs-client@1.6.1)(typescript@5.9.2):
     dependencies:
       '@babel/core': 7.12.3
       '@pmmmwh/react-refresh-webpack-plugin': 0.4.3(@types/webpack@4.41.34)(react-refresh@0.8.3)(sockjs-client@1.6.1)(webpack-dev-server@3.11.1(webpack@4.44.2))(webpack@4.44.2)
@@ -14066,7 +14058,7 @@ snapshots:
       react-refresh: 0.8.3
       resolve: 1.18.1
       resolve-url-loader: 3.1.5
-      sass-loader: 10.5.2(sass@1.93.1)(webpack@4.44.2)
+      sass-loader: 10.5.2(sass@1.93.2)(webpack@4.44.2)
       semver: 7.3.2
       style-loader: 1.3.0(webpack@4.44.2)
       terser-webpack-plugin: 4.2.3(webpack@4.44.2)
@@ -14387,7 +14379,7 @@ snapshots:
 
   sanitize.css@10.0.0: {}
 
-  sass-loader@10.5.2(sass@1.93.1)(webpack@4.44.2):
+  sass-loader@10.5.2(sass@1.93.2)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
       loader-utils: 2.0.4
@@ -14396,16 +14388,16 @@ snapshots:
       semver: 7.3.2
       webpack: 4.44.2
     optionalDependencies:
-      sass: 1.93.1
+      sass: 1.93.2
 
-  sass-loader@16.0.5(sass@1.93.1)(webpack@4.44.2):
+  sass-loader@16.0.5(sass@1.93.2)(webpack@4.44.2):
     dependencies:
       neo-async: 2.6.2
     optionalDependencies:
-      sass: 1.93.1
+      sass: 1.93.2
       webpack: 4.44.2
 
-  sass@1.93.1:
+  sass@1.93.2:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.1.3
