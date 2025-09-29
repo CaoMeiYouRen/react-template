@@ -82,14 +82,14 @@ importers:
         specifier: ^8.44.1
         version: 8.44.1(eslint@7.32.0)(typescript@5.9.2)
       cross-env:
-        specifier: ^10.0.0
-        version: 10.0.0
+        specifier: ^10.1.0
+        version: 10.1.0
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
       eslint-config-cmyr:
         specifier: ^1.1.33
-        version: 1.1.33(l5rjb72lyb75dr6zhfboshozee)
+        version: 1.1.33(be84b4bd51577419cec07922a33d4e88)
 
 packages:
 
@@ -2291,8 +2291,8 @@ packages:
   create-hmac@1.1.7:
     resolution: {integrity: sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==}
 
-  cross-env@10.0.0:
-    resolution: {integrity: sha512-aU8qlEK/nHYtVuN4p7UQgAwVljzMg8hB4YK5ThRqD2l/ziSnryncPNn7bMLt5cFYsKVKBh8HqLqyCoTupEUu7Q==}
+  cross-env@10.1.0:
+    resolution: {integrity: sha512-GsYosgnACZTADcmEyJctkJIoqAhHjttw7RsFrVoJNXbsWWqaq6Ym+7kZjq6mS45O0jij6vtiReppKQEtqWy6Dw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -10149,7 +10149,7 @@ snapshots:
       safe-buffer: 5.2.1
       sha.js: 2.4.11
 
-  cross-env@10.0.0:
+  cross-env@10.1.0:
     dependencies:
       '@epic-web/invariant': 1.0.0
       cross-spawn: 7.0.6
@@ -10752,7 +10752,7 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-cmyr@1.1.33(l5rjb72lyb75dr6zhfboshozee):
+  eslint-config-cmyr@1.1.33(be84b4bd51577419cec07922a33d4e88):
     dependencies:
       eslint: 7.32.0
     optionalDependencies:
