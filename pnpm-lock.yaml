@@ -21,11 +21,11 @@ importers:
         specifier: ^5.2.7
         version: 5.2.7(webpack@4.44.2)
       less:
-        specifier: ^4.4.2
-        version: 4.4.2
+        specifier: ^4.5.1
+        version: 4.5.1
       less-loader:
         specifier: ^7.3.0
-        version: 7.3.0(less@4.4.2)(webpack@4.44.2)
+        version: 7.3.0(less@4.5.1)(webpack@4.44.2)
       react:
         specifier: ^19.2.2
         version: 19.2.2
@@ -4195,8 +4195,8 @@ packages:
       less: ^3.5.0 || ^4.0.0
       webpack: ^4.0.0 || ^5.0.0
 
-  less@4.4.2:
-    resolution: {integrity: sha512-j1n1IuTX1VQjIy3tT7cyGbX7nvQOsFLoIqobZv4ttI5axP923gA44zUj6miiA6R5Aoms4sEGVIIcucXUbRI14g==}
+  less@4.5.1:
+    resolution: {integrity: sha512-UKgI3/KON4u6ngSsnDADsUERqhZknsVZbnuzlRZXLQCmfC/MDld42fTydUE9B+Mla1AL6SJ/Pp6SlEFi/AVGfw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5692,8 +5692,8 @@ packages:
   sax@1.2.4:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
 
-  sax@1.4.1:
-    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
+  sax@1.4.3:
+    resolution: {integrity: sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==}
 
   saxes@5.0.1:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
@@ -12620,15 +12620,15 @@ snapshots:
       lodash: 4.17.21
       webpack-sources: 1.4.3
 
-  less-loader@7.3.0(less@4.4.2)(webpack@4.44.2):
+  less-loader@7.3.0(less@4.5.1)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
-      less: 4.4.2
+      less: 4.5.1
       loader-utils: 2.0.4
       schema-utils: 3.3.0
       webpack: 4.44.2
 
-  less@4.4.2:
+  less@4.5.1:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
@@ -12954,7 +12954,7 @@ snapshots:
   needle@3.3.1:
     dependencies:
       iconv-lite: 0.6.3
-      sax: 1.4.1
+      sax: 1.4.3
     optional: true
 
   negotiator@0.6.3: {}
@@ -14437,7 +14437,7 @@ snapshots:
 
   sax@1.2.4: {}
 
-  sax@1.4.1:
+  sax@1.4.3:
     optional: true
 
   saxes@5.0.1:
