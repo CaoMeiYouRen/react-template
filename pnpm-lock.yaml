@@ -21,11 +21,11 @@ importers:
         specifier: ^5.2.7
         version: 5.2.7(webpack@4.44.2)
       less:
-        specifier: ^4.5.1
-        version: 4.5.1
+        specifier: ^4.6.1
+        version: 4.6.1
       less-loader:
         specifier: ^7.3.0
-        version: 7.3.0(less@4.5.1)(webpack@4.44.2)
+        version: 7.3.0(less@4.6.1)(webpack@4.44.2)
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -2255,8 +2255,9 @@ packages:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
 
-  copy-anything@2.0.6:
-    resolution: {integrity: sha512-1j20GZTsvKNkc4BY3NpMOM8tt///wY3FpIzozTOFO2ffuZcV61nojHXVKIy3WM+7ADCy5FVhdZYHYDdgTU0yJw==}
+  copy-anything@3.0.5:
+    resolution: {integrity: sha512-yCEafptTtb4bk7GLEQoM8KVJpxAfdBJYaXyzQEgQQQgYrZiDp8SJmGKlYza6CYjEDNstAdNdKA3UuoULlEbS6w==}
+    engines: {node: '>=12.13'}
 
   copy-concurrently@1.0.5:
     resolution: {integrity: sha512-f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==}
@@ -3855,8 +3856,9 @@ packages:
   is-weakset@2.0.2:
     resolution: {integrity: sha512-t2yVvttHkQktwnNNmBQ98AhENLdPUTDTE21uPqAQ0ARwQfGeQKRVS0NNurH7bTf7RrvcVn1OOge45CnBeHCSmg==}
 
-  is-what@3.14.1:
-    resolution: {integrity: sha512-sNxgpk9793nzSs7bA6JQJGeIuRBQhAaNGG77kzYQgMkrID+lS6SlK07K5LaptscDlSaIgH+GPFzf+d75FVxozA==}
+  is-what@4.1.16:
+    resolution: {integrity: sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==}
+    engines: {node: '>=12.13'}
 
   is-windows@1.0.2:
     resolution: {integrity: sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==}
@@ -4199,9 +4201,9 @@ packages:
       less: ^3.5.0 || ^4.0.0
       webpack: ^4.0.0 || ^5.0.0
 
-  less@4.5.1:
-    resolution: {integrity: sha512-UKgI3/KON4u6ngSsnDADsUERqhZknsVZbnuzlRZXLQCmfC/MDld42fTydUE9B+Mla1AL6SJ/Pp6SlEFi/AVGfw==}
-    engines: {node: '>=14'}
+  less@4.6.1:
+    resolution: {integrity: sha512-cw4gbdRy/HmYl9lTz+T1jPyxn3cHe8kdS+vBl+FYoQxKon7kWztWzP+3GH30QWO1IjW56d2RV8YPq1EjVm5g8Q==}
+    engines: {node: '>=18'}
     hasBin: true
 
   leven@3.1.0:
@@ -5696,8 +5698,9 @@ packages:
   sax@1.2.4:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
 
-  sax@1.4.3:
-    resolution: {integrity: sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==}
+  sax@1.5.0:
+    resolution: {integrity: sha512-21IYA3Q5cQf089Z6tgaUTr7lDAyzoTPx5HRtbhsME8Udispad8dC/+sziTNugOEx54ilvatQ9YCzl4KQLPcRHA==}
+    engines: {node: '>=11.0.0'}
 
   saxes@5.0.1:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
@@ -10113,9 +10116,9 @@ snapshots:
 
   cookie@0.5.0: {}
 
-  copy-anything@2.0.6:
+  copy-anything@3.0.5:
     dependencies:
-      is-what: 3.14.1
+      is-what: 4.1.16
 
   copy-concurrently@1.0.5:
     dependencies:
@@ -11992,7 +11995,7 @@ snapshots:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
 
-  is-what@3.14.1: {}
+  is-what@4.1.16: {}
 
   is-windows@1.0.2: {}
 
@@ -12630,19 +12633,18 @@ snapshots:
       lodash: 4.17.21
       webpack-sources: 1.4.3
 
-  less-loader@7.3.0(less@4.5.1)(webpack@4.44.2):
+  less-loader@7.3.0(less@4.6.1)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
-      less: 4.5.1
+      less: 4.6.1
       loader-utils: 2.0.4
       schema-utils: 3.3.0
       webpack: 4.44.2
 
-  less@4.5.1:
+  less@4.6.1:
     dependencies:
-      copy-anything: 2.0.6
+      copy-anything: 3.0.5
       parse-node-version: 1.0.1
-      tslib: 2.8.1
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.11
@@ -12968,7 +12970,7 @@ snapshots:
   needle@3.3.1:
     dependencies:
       iconv-lite: 0.6.3
-      sax: 1.4.3
+      sax: 1.5.0
     optional: true
 
   negotiator@0.6.3: {}
@@ -14449,7 +14451,7 @@ snapshots:
 
   sax@1.2.4: {}
 
-  sax@1.4.3:
+  sax@1.5.0:
     optional: true
 
   saxes@5.0.1:
