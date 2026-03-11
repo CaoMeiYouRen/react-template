@@ -21,11 +21,11 @@ importers:
         specifier: ^5.2.7
         version: 5.2.7(webpack@4.44.2)
       less:
-        specifier: ^4.6.1
-        version: 4.6.1
+        specifier: ^4.6.3
+        version: 4.6.3
       less-loader:
         specifier: ^7.3.0
-        version: 7.3.0(less@4.6.1)(webpack@4.44.2)
+        version: 7.3.0(less@4.6.3)(webpack@4.44.2)
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -4201,8 +4201,8 @@ packages:
       less: ^3.5.0 || ^4.0.0
       webpack: ^4.0.0 || ^5.0.0
 
-  less@4.6.1:
-    resolution: {integrity: sha512-cw4gbdRy/HmYl9lTz+T1jPyxn3cHe8kdS+vBl+FYoQxKon7kWztWzP+3GH30QWO1IjW56d2RV8YPq1EjVm5g8Q==}
+  less@4.6.3:
+    resolution: {integrity: sha512-xxjVIiz0rvWAhx49t8YLA/Dj6Uig4XdJgTRI5hbYHGmiDSh+S8hi2Wxsed2trjl/uur4kbW2+e2a8Mrk9Rcgbw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -12633,15 +12633,15 @@ snapshots:
       lodash: 4.17.21
       webpack-sources: 1.4.3
 
-  less-loader@7.3.0(less@4.6.1)(webpack@4.44.2):
+  less-loader@7.3.0(less@4.6.3)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
-      less: 4.6.1
+      less: 4.6.3
       loader-utils: 2.0.4
       schema-utils: 3.3.0
       webpack: 4.44.2
 
-  less@4.6.1:
+  less@4.6.3:
     dependencies:
       copy-anything: 3.0.5
       parse-node-version: 1.0.1
