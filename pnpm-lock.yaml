@@ -21,11 +21,11 @@ importers:
         specifier: ^5.2.7
         version: 5.2.7(webpack@4.44.2)
       less:
-        specifier: ^4.6.3
-        version: 4.6.3
+        specifier: ^4.6.4
+        version: 4.6.4
       less-loader:
         specifier: ^7.3.0
-        version: 7.3.0(less@4.6.3)(webpack@4.44.2)
+        version: 7.3.0(less@4.6.4)(webpack@4.44.2)
       react:
         specifier: ^19.2.4
         version: 19.2.4
@@ -4201,8 +4201,8 @@ packages:
       less: ^3.5.0 || ^4.0.0
       webpack: ^4.0.0 || ^5.0.0
 
-  less@4.6.3:
-    resolution: {integrity: sha512-xxjVIiz0rvWAhx49t8YLA/Dj6Uig4XdJgTRI5hbYHGmiDSh+S8hi2Wxsed2trjl/uur4kbW2+e2a8Mrk9Rcgbw==}
+  less@4.6.4:
+    resolution: {integrity: sha512-OJmO5+HxZLLw0RLzkqaNHzcgEAQG7C0y3aMbwtCzIUFZsLMNNq/1IdAdHEycQ58CwUO3jPTHmoN+tE5I7FQxNg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -4503,8 +4503,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  needle@3.3.1:
-    resolution: {integrity: sha512-6k0YULvhpw+RoLNiQCRKOl09Rv1dPLr8hHnVjHqdolKwDrdNyk+Hmrthi4lIGPPz3r39dLx0hsF5s40sZ3Us4Q==}
+  needle@3.5.0:
+    resolution: {integrity: sha512-jaQyPKKk2YokHrEg+vFDYxXIHTCBgiZwSHOoVx/8V3GIBS8/VN6NdVRmg8q1ERtPkMvmOvebsgga4sAj5hls/w==}
     engines: {node: '>= 4.4.x'}
     hasBin: true
 
@@ -12633,15 +12633,15 @@ snapshots:
       lodash: 4.17.21
       webpack-sources: 1.4.3
 
-  less-loader@7.3.0(less@4.6.3)(webpack@4.44.2):
+  less-loader@7.3.0(less@4.6.4)(webpack@4.44.2):
     dependencies:
       klona: 2.0.6
-      less: 4.6.3
+      less: 4.6.4
       loader-utils: 2.0.4
       schema-utils: 3.3.0
       webpack: 4.44.2
 
-  less@4.6.3:
+  less@4.6.4:
     dependencies:
       copy-anything: 3.0.5
       parse-node-version: 1.0.1
@@ -12651,7 +12651,7 @@ snapshots:
       image-size: 0.5.5
       make-dir: 2.1.0
       mime: 1.6.0
-      needle: 3.3.1
+      needle: 3.5.0
       source-map: 0.6.1
 
   leven@3.1.0: {}
@@ -12967,7 +12967,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  needle@3.3.1:
+  needle@3.5.0:
     dependencies:
       iconv-lite: 0.6.3
       sax: 1.5.0
