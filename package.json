@@ -27,7 +27,7 @@
     "sass-loader": "^16.0.7",
     "style-loader": "^2.0.0",
     "typescript": "^6.0.2",
-    "web-vitals": "^3.5.2",
+    "web-vitals": "^5.2.0",
     "webpack": "4.44.2"
   },
   "devDependencies": {
