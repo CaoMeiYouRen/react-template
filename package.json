@@ -28,7 +28,7 @@
     "style-loader": "^2.0.0",
     "typescript": "^6.0.2",
     "web-vitals": "^5.2.0",
-    "webpack": "4.44.2"
+    "webpack": "5.106.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
